@@ -1,4 +1,0 @@
-{
-    "sumneko-lua.serverDir": "~/.config/coc/sumneko",
-    "rust-analyzer.server.path":"/data/data/com.termux/files/usr/bin/rust-analyzer"
-}

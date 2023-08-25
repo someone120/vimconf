@@ -1,3 +1,5 @@
+vim.g.coc_global_extensions = {'coc-json', 'coc-git','coc-rust-analyzer','coc-lua'}
+
 -- Install Packer automatically if it's not installed(Bootstraping)
 -- Hint: string concatenation is done by `..`
 local ensure_packer = function()

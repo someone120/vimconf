@@ -41,11 +41,18 @@ return require('packer').startup(function(use)
         -- NOTE: PUT YOUR THIRD PLUGIN HERE --
         ---------------------------------------
     use {'neoclide/coc.nvim', branch = 'release'}
+    use 'wakatime/vim-wakatime'
 	use 'morhetz/gruvbox'
     use 'easymotion/vim-easymotion'
     use 'jiangmiao/auto-pairs'
     use 'nvim-tree/nvim-tree.lua'
     use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
+    use 'mfussenegger/nvim-dap'
+    use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
+    use 'theHamsta/nvim-dap-virtual-text'
+    use {
+        'nvim-treesitter/nvim-treesitter',
+    }
     -- Automatically set up your configuration after cloning packer.nvim
 
         -- Put this at the end after all plugins
